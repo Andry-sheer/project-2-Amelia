@@ -1,0 +1,442 @@
+@import url("reset.css");
+
+/* GLOBAL ************************************************************************/
+body div {
+  /*  outline: 2px solid blue;  ---- ЕЩЕ ЛУЧШЕ СПОСОБ ВКЛ/ОТКЛ ВСЕ РАМКИ -----*/
+}
+/* TITLES - SUBTITLES - ABOUT - PARAGRAPH **************************************/
+
+
+.container {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+/* HEADER **********************************************************************/
+.header {
+  background: #81a36b;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder-logo {
+  padding: 19px 0;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 25px 0;
+  line-height: 29px;
+}
+
+.header-list a {
+  color: #161616;
+  text-decoration: none;
+}
+
+/* main-section 1 **************************************************************/
+.section-1 {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  /*outline: 2px solid red;*/
+}
+
+.section-in1 {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 0 0 0 15px;
+}
+
+.section-in2 {
+  display: flex;
+}
+
+.img-sect-1 {
+  width: 540px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid red;*/
+}
+
+.Amelia {
+  font-family: "Architects Daughter";
+  font-weight: 400;
+  font-size: 62px;
+  padding: 174px 0 41px 0;
+}
+
+.lorm-1 {
+  padding: 0 30px 20px 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 164%;
+}
+
+.sect-1 {
+  width: 570px;
+  height: 670px;
+  flex-shrink: 0;
+  /*outline: 1px solid rgb(55, 0, 255);*/
+}
+
+.bts {
+  display: flex;
+  gap: 25px;
+}
+
+.bt1 {
+  width: 197px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #81a36b;
+  border-radius: 6px;
+  text-align: center;
+  padding: 18px 34px 21px;
+}
+.bt1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.bt2 {
+  width: 159px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid #81a36b;
+  border-radius: 6px;
+  padding: 18px 34px 21px;
+  text-align: start;
+}
+.bt2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main-section 2 *************************************************************/
+.section-2 {
+  background: #d8d8d6;
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding: 120px 0 120px 0;
+  /*outline: 2px solid red;*/
+}
+
+.sect-2 {
+  width: 540px;
+  height: 196px;
+  margin: 0 auto;
+  /*outline: 2px solid red;*/
+}
+
+.About {
+  font-size: 32px;
+  font-weight: 400;
+  color: #161616;
+  font-family: "Architects Daughter";
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.lorm-cont-2 {
+  height: 112px;
+  color: #161616;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 164%;
+  /*outline: 2px solid red;*/
+}
+
+/* main-section 3 *************************************************************/
+.section-3 {
+  background: #81a36b;
+}
+
+.sect-3 {
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  padding: 78px 0 78px 0;
+}
+
+.box {
+  display: flex;
+  width: 1110px;
+  height: 126px;
+  /*outline: 2px solid red;*/
+  margin: 0 auto;
+  gap: 90px;
+  justify-content: space-between;
+}
+
+.box > div {
+  text-align: center;
+  height: 126px;
+  /*outline: 1px solid red;*/
+}
+
+.box > div > div {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+  padding-top: 25px;
+}
+
+.box > div > div {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img1 {
+  width: 139px;
+}
+
+
+
+/*
+.text1 {
+outline: 1px solid red;
+---------- ОФИГЕТЬ!!! КАК СПАСАЕТ ОБРАЩЕНИЕ: .BOX > DIV ----------------
+}
+*/
+
+.img2 {
+  width: 178px;
+}
+.text2 {
+  height: 22px;
+  text-align: center;
+}
+
+
+.img3 {
+  width: 115px;
+}
+.text3 {
+  height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img4 {
+  width: 185px;
+}
+.text4 {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+
+.img5 {
+  width: 129px;
+}
+.text5 {
+height: 22px;
+  /*outline: 1px solid red;*/
+  text-align: center;
+}
+
+/* main-section 4 *************************************************************/
+.section-4 {
+  background: #D8D8D6;
+}
+.section-4 div {
+  /*  outline: 1px solid red; */
+}
+
+.sect-4 {
+  width: 1109px;
+  margin: 0 auto;
+}
+
+.sect-4-1 {
+  display: flex;
+  gap: 30px;
+  padding: 120px 0 ;
+}
+
+.img-sect4 {
+  width: 539px;
+  height: 560px;
+}
+
+.sect-4-text {
+  width: 539px;
+  height: 560px;
+  padding: 180px 0 179px 0;
+}
+
+.how {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+  width: 539px;
+  height: 38px;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.Hlorm {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  width: 539px;
+  height: 112px;
+  line-height: 164%;
+  text-align: justify;
+}
+
+/* main-section 5 *************************************************************/
+.section-5 {
+  background: #D8D8D6;
+}
+.section-5 div {
+  /*  outline: 1px solid red; */
+}
+
+.sect-5-cont {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 0 120px 0;
+}
+
+.ourWorks  {
+  width: 403px;
+  height: 38px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0 0 0;
+}
+
+.card-1 {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-1-img {
+  border-radius: 6px;
+}
+.tex-1 {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-2 {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+
+.tex-2 {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+.card-3 {
+  width: 350px;
+  height: 510px;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 15px 15px 0 15px;
+}
+.card-3-img {
+  border-radius: 6px;
+}
+.tex-3 {
+  width: 152px;
+  height: 30px;
+  text-align: center;
+  margin: 23px auto;
+  font: 18px/29px "Roboto";
+}
+
+/* FOOTER *********************************************************************/
+.footer {
+  /*  outline: 1px solid red; */
+  background: #81A36B;
+}
+
+.AMF {
+  padding: 50px 0 25px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Architects Daughter";
+}
+
+.Contacts {
+  text-align: center;
+  font: 24px/39px "Roboto";
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.num-1 {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.num-2 {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.adress {
+  text-align: center;
+  font: 18px/29px "Roboto";
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.FooterImg {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.year2023 {
+  text-align: center;
+  font: 16px "Roboto";
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+/* END **************************************************************************************/
